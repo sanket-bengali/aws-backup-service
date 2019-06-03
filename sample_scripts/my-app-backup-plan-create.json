@@ -1,0 +1,19 @@
+{
+    "BackupPlan": {
+        "BackupPlanName": "MY-APP-backup-plan",
+        "Rules": [
+            {
+                "RuleName": "EFS-Daily-9AM",
+                "TargetBackupVaultName": "EFS",
+                "ScheduleExpression": "cron(0 9 ? * * *)",
+                "StartWindowMinutes": 60,
+                "Lifecycle": {
+                    "DeleteAfterDays": 1
+                },
+                "RecoveryPointTags": {
+                    "EFSBackupRule": "EFSDaily9AM"
+                }
+            }
+        ]
+    }
+}

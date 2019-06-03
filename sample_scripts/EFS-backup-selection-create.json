@@ -1,0 +1,11 @@
+{
+    "BackupPlanId": "1234",
+    "BackupSelection": {
+        "SelectionName": "EFS",
+    	"IamRoleArn": "arn:aws:iam::<aws_account_id>:role/service-role/AWSBackupDefaultServiceRole",
+        "Resources": [
+            "arn:aws:elasticfilesystem:<aws_region>:<aws_account_id>:file-system/<efs_id>",
+	    "arn:aws:elasticfilesystem:<aws_region>:<aws_account_id>:file-system/<efs_id>"
+	]
+    }
+}
