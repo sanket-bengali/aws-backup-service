@@ -52,17 +52,17 @@ There are mainly 2 shell scripts to create and delete an EFS backup using [AWS B
 
 #### Pre-requisite : AWS CLI is installed and configured [Configuring the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
-1. Clone this repository : git clone https://github.com/sanket-bengali/aws-backup-service.git
+1. Clone this repository : ```git clone https://github.com/sanket-bengali/aws-backup-service.git```
 
-2. Go to the directory : cd /path/to/repository/sample_scripts
+2. Go to the directory : ```cd /path/to/repository/sample_scripts```
 
 3. Replace the values as mentioned above
 
 4. Run the scripts : 
 
-   -> To create : ./my-app-aws-backup-plan-create.sh
+   -> To create : ```./my-app-aws-backup-plan-create.sh```
    
-   -> To delete : ./my-app-aws-backup-plan-delete.sh
+   -> To delete : ```./my-app-aws-backup-plan-delete.sh```
 
 # License
 
